@@ -1,0 +1,26 @@
+- ¿Qué comando utilizaste en el paso 11? ¿Por qué?
+    - git reset --hard HEAD~1. He utilizado el comando git reset para mover donde estamos ubicados en el repositorio y la opción --hard puesto que no queríamos conservar los cambios.
+- ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
+    - Primero "git reflog", para averiguar cual es el commit al que nos queríamos mover y después "git reset --hard adc208d" para ubicarnos en el con todos los cambios ya aplicados usando la opción --hard
+- El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?
+    - No causó ningún conflicto porque no se produjo ningún merge al contener ya los cambios de master la propia rama styled
+- El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?
+    - Sí, causo conflicto porque los dos commits de ambas ramas modificaro las mismas lineas para el mismo fichero
+- El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
+    - No, se hizo un merge fast forward, pero no hubo conflicto al no haber cambios en la rama master en el que coincidieran las lineas y fichero
+- ¿Qué comando o comandos utilizaste en el paso 25?
+    - git log --graph
+- El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
+    - Si, podría haber sido FF porque no se hizo ningún cambio en master, que impidiera ver algún commit a title
+- ¿Qué comando o comandos utilizaste en el paso 27?
+    - git reset HEAD~1
+- ¿Qué comando o comandos utilizaste en el paso 28?
+    - git restore git-nuestro.md
+- ¿Qué comando o comandos utilizaste en el paso 29?
+    - 
+- ¿Qué comando o comandos utilizaste en el paso 30?
+    - git branch -D title
+- ¿Qué comando o comandos usaste en el paso 32?
+    - Usé "git reflog" para buscar el commit al que debía moverme y después "git reset --hard 5c1d059" para moverme y confirmar los cambios que había hechos en ese commit
+- ¿Qué comando o comandos usaste en el punto 33?
+    - "git reset --hard 36b01a2" no me hizo falta hacer "git reflog" porque pude ver el commit al que moverme con el paso anterior
