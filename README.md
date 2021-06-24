@@ -17,9 +17,9 @@
 - ¿Qué comando o comandos utilizaste en el paso 28?
     - git restore git-nuestro.md
 - ¿Qué comando o comandos utilizaste en el paso 29?
-    - 
-- ¿Qué comando o comandos utilizaste en el paso 30?
     - git branch -D title
+- ¿Qué comando o comandos utilizaste en el paso 30?
+    - Usé "git reflog" para buscar el commit al que debía moverme y después "git reset --hard 36b01a2" para moverme y confirmar los cambios que había hechos en ese commit
 - ¿Qué comando o comandos usaste en el paso 32?
     - Usé "git reflog" para buscar el commit al que debía moverme y después "git reset --hard 5c1d059" para moverme y confirmar los cambios que había hechos en ese commit
 - ¿Qué comando o comandos usaste en el punto 33?
